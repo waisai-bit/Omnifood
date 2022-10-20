@@ -1,0 +1,169 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* from 1023 to 1200 */
+@media only screen and (max-width: 1200px) {
+  .row {
+    padding: 0 2%;
+  }
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+}
+
+/* Small Phone and Big Tablet from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+  html {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .long-para {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .steps-box:first-child {
+    margin-top: 10px;
+  }
+  .steps-box:last-child {
+    margin-top: 10px;
+  }
+  .works-step {
+    margin-bottom: 40px;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 60px;
+  }
+  .app-screen {
+    width: 50%;
+    height: auto;
+  }
+  .small-icon {
+    width: 20px;
+    margin-right: 5px;
+  }
+  .city-feature {
+    font-size: 90%;
+  }
+  .plan-box {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .plan-price {
+    font-size: 250%;
+  }
+  .plan-box ul {
+    font-size: 90%;
+  }
+  .content-form {
+    width: 80%;
+  }
+  .footer-nav li,
+  .social-links li {
+    font-size: 80%;
+    margin-right: 10px;
+  }
+  footer p {
+    margin-top: 10px;
+    padding: 30px;
+  }
+}
+
+/* Small Phone and small Tablet from 481 to 767px */
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .logo {
+    height: 70px;
+  }
+  .rows,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+  .main-nav {
+    display: none;
+  }
+  .long-para {
+    width: 100%;
+    margin-left: 0;
+  }
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+  .works-step div {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-right: 4px;
+  }
+  .works-step {
+    margin-bottom: 20px;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 20px;
+  }
+  .steps-box:first-child {
+    text-align: center;
+  }
+  .app-screen {
+    width: 40%;
+  }
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+  .main-nav {
+    float: left;
+    margin: 35px 0 0 25px;
+  }
+  .main-nav li {
+    display: block;
+  }
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+
+  .sticky .main-nav {
+    margin-top: 10px;
+  }
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 10px 0;
+  }
+  .sticky .mobile-nav-icon {
+    margin-top: 15px;
+  }
+  .sticky .mobile-nav-icon i {
+    color: #000;
+  }
+}
+/* Small Phone from 0 to 40px */
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+  .content-form {
+    width: 100%;
+  }
+}
